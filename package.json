@@ -1,0 +1,18 @@
+{
+  "name": "get-in-tune-pages",
+  "version": "1.0.0",
+  "private": true,
+  "description": "搭个调调 · 页面服务：把用户服务协议等静态页面发布为可访问的 URL",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsc && node dist/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
